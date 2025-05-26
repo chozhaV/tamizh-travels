@@ -1,0 +1,14 @@
+<section class="packages">
+  <h2 class="section-title">Popular Travel Packages</h2>
+  <div class="package-grid">
+    <div class="package-card" *ngFor="let pkg of packages">
+      <img [src]="pkg.image" [alt]="pkg.title">
+      <div class="package-details">
+        <h3>{{ pkg.title }}</h3>
+        <p>{{ pkg.description }}</p>
+        <span class="price">From {{ pkg.price }}</span>
+        <button class="book-now">Book Now</button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+.testimonials {
+  background-color: #f0f0f0;
+  padding: 4rem 2rem;
+  text-align: center;
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .testimonial-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .message {
+      font-style: italic;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .author {
+      font-weight: bold;
+      color: #007bff;
+    }
+  }
+}
