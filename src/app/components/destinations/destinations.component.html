@@ -1,0 +1,11 @@
+<section class="destinations">
+  <h2 class="section-title">Top Destinations</h2>
+  <div class="destination-grid">
+    <div class="destination-card" *ngFor="let destination of destinations">
+      <img [src]="destination.image" [alt]="destination.name">
+      <h3>{{ destination.name }}</h3>
+      <p>{{ destination.description }}</p>
+      <button class="view-trips">View Trips</button>
+    </div>
+  </div>
+</section>
